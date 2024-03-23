@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends to Kokoa Clone</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span>
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span>
+                <i class="fa-solid fa-music fa-lg"></i>
+            </span>
+            <span>
+                <i class="fa-solid fa-gear fa-lg"></i>
+            </span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fa-solid fa-circle-info"></i>FRIENDS' nAMES dISPLAY<i class="fa-solid fa-chevron-right fa-sm"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user_component">
+            <div class="user-components__columns">
+                <img src="img/common.jpg" class="user_component__avatar user_component__avatar--xl">
+                <div class="user_component__text">
+                    <h4 class="user_component__title">Jang Wonyoung</h4>
+                    <!-- <h6 class="user_component__subtitle">지나간 일은 후회하지 않는다.</h6> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fa-solid fa-chevron-up fa-sm"></i>
+            </div>
+            <div class="user_component">
+                <div class="user-components__columns">
+                    <img src="img/common.jpg" class="user_component__avatar user_component__avatar--sm">
+                    <div class="user_component__text">
+                        <h4 class="user_component__title user_component__title--not-bold">Channel</h4>
+                    </div>
+                </div>
+                <div class="user-components__columns user-component__column--last">
+                    <div>
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right fa-sm"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__dot">.</span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="splash-screen">
+        <i class="fa-solid fa-comment fa-2x"></i>
+    </div>
+
+    <div id="no-mobile">
+        <span>Your screen is too big ㅜㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/a7b1e0f81b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
